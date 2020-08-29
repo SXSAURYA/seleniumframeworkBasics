@@ -1,0 +1,8 @@
+Aug 13, 2020 4:37:01 PM demo.UseLogger doSomeThingAndLog
+SEVERE: Info Log
+Aug 13, 2020 4:37:01 PM demo.UseLogger doSomeThingAndLog
+SEVERE: Info Log
+Aug 13, 2020 4:37:01 PM demo.UseLogger doSomeThingAndLog
+WARNING: Info Log
+Aug 13, 2020 4:37:01 PM demo.UseLogger doSomeThingAndLog
+INFO: Info Log

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on Element Demo 1 link begins]]>
+    </line>
+    <line>
+      <![CDATA[UI Element Demo 1 link is clicked successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on Element Demo 1 link ends]]>
+    </line>
+    <line>
+      <![CDATA[UI element zip Input TextBox is displaying properly]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as 500089########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### ends]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as 500089########### end]]>
+    </line>
+    <line>
+      <![CDATA[UI element website Input TextBox is displaying properly]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as www.demoSite.com########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### ends]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as www.demoSite.com########### end]]>
+    </line>
+    <line>
+      <![CDATA[UI element address Input TextBox is displaying properly]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as Chanda Nagar, Hyderabad########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### ends]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as Chanda Nagar, Hyderabad########### end]]>
+    </line>
+    <line>
+      <![CDATA[UI element phone Input TextBox is displaying properly]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as 6261087789########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### ends]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as 6261087789########### end]]>
+    </line>
+    <line>
+      <![CDATA[UI element city Input TextBox is displaying properly]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as Hyderabad########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### ends]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as Hyderabad########### end]]>
+    </line>
+    <line>
+      <![CDATA[UI element last_name Input TextBox is displaying properly]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as Ramisetty########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### ends]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as Ramisetty########### end]]>
+    </line>
+    <line>
+      <![CDATA[UI element comment Input TextBox is displaying properly]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as Added Comment for Automation########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### ends]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as Added Comment for Automation########### end]]>
+    </line>
+    <line>
+      <![CDATA[UI element first_name Input TextBox is displaying properly]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as Naga Raju########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### ends]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as Naga Raju########### end]]>
+    </line>
+    <line>
+      <![CDATA[UI element email Input TextBox is displaying properly]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as nagaraju145@gmail.com########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### Begins]]>
+    </line>
+    <line>
+      <![CDATA[##############Clearing the textbox########### ends]]>
+    </line>
+    <line>
+      <![CDATA[##############Entering text as nagaraju145@gmail.com########### end]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37032" started-at="2020-08-28T16:13:34Z" finished-at="2020-08-28T16:14:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17995" started-at="2020-08-28T16:13:34Z" finished-at="2020-08-28T16:13:52Z">
+      <class name="testScripts.SubmitForm">
+        <test-method status="PASS" signature="runBeforeTest()[pri:0, instance:testScripts.SubmitForm@6eebc39e]" name="runBeforeTest" is-config="true" duration-ms="6" started-at="2020-08-28T16:13:34Z" finished-at="2020-08-28T16:13:34Z">
+        </test-method>
+        <test-method status="PASS" signature="runBeforeMethod()[pri:0, instance:testScripts.SubmitForm@6eebc39e]" name="runBeforeMethod" is-config="true" duration-ms="6426" started-at="2020-08-28T16:13:34Z" finished-at="2020-08-28T16:13:40Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyDemoLinkNavigation()[pri:0, instance:testScripts.SubmitForm@6eebc39e]" name="verifyDemoLinkNavigation" duration-ms="1437" started-at="2020-08-28T16:13:40Z" finished-at="2020-08-28T16:13:42Z">
+        </test-method>
+        <test-method status="PASS" signature="runAfterMethod()[pri:0, instance:testScripts.SubmitForm@6eebc39e]" name="runAfterMethod" is-config="true" duration-ms="757" started-at="2020-08-28T16:13:42Z" finished-at="2020-08-28T16:13:43Z">
+        </test-method>
+        <test-method status="PASS" signature="runBeforeMethod()[pri:0, instance:testScripts.SubmitForm@6eebc39e]" name="runBeforeMethod" is-config="true" duration-ms="5360" started-at="2020-08-28T16:13:43Z" finished-at="2020-08-28T16:13:48Z">
+        </test-method>
+        <test-method status="PASS" signature="verifySubmitFormUI()[pri:0, instance:testScripts.SubmitForm@6eebc39e]" name="verifySubmitFormUI" duration-ms="3996" started-at="2020-08-28T16:13:48Z" finished-at="2020-08-28T16:13:52Z">
+        </test-method>
+        <test-method status="PASS" signature="runAfterMethod()[pri:0, instance:testScripts.SubmitForm@6eebc39e]" name="runAfterMethod" is-config="true" duration-ms="0" started-at="2020-08-28T16:13:52Z" finished-at="2020-08-28T16:13:52Z">
+        </test-method>
+        <test-method status="PASS" signature="runAfterTest()[pri:0, instance:testScripts.SubmitForm@6eebc39e]" name="runAfterTest" is-config="true" duration-ms="1" started-at="2020-08-28T16:13:52Z" finished-at="2020-08-28T16:13:52Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="Test2" duration-ms="19027" started-at="2020-08-28T16:13:52Z" finished-at="2020-08-28T16:14:11Z">
+      <class name="testScripts.ElementsInteraction">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testScripts.ElementsInteraction@4cf777e8]" name="beforeMethod" is-config="true" duration-ms="5392" started-at="2020-08-28T16:13:52Z" finished-at="2020-08-28T16:13:57Z">
+        </test-method>
+        <test-method status="PASS" signature="elemementHandle()[pri:0, instance:testScripts.ElementsInteraction@4cf777e8]" name="elemementHandle" duration-ms="6638" started-at="2020-08-28T16:13:57Z" finished-at="2020-08-28T16:14:04Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testScripts.ElementsInteraction@4cf777e8]" name="afterMethod" is-config="true" duration-ms="725" started-at="2020-08-28T16:14:04Z" finished-at="2020-08-28T16:14:05Z">
+        </test-method>
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testScripts.ElementsInteraction@4cf777e8]" name="beforeMethod" is-config="true" duration-ms="5411" started-at="2020-08-28T16:14:05Z" finished-at="2020-08-28T16:14:10Z">
+        </test-method>
+        <test-method status="PASS" signature="verifyElementClickable()[pri:0, instance:testScripts.ElementsInteraction@4cf777e8]" name="verifyElementClickable" duration-ms="186" started-at="2020-08-28T16:14:10Z" finished-at="2020-08-28T16:14:10Z">
+        </test-method>
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testScripts.ElementsInteraction@4cf777e8]" name="afterMethod" is-config="true" duration-ms="672" started-at="2020-08-28T16:14:10Z" finished-at="2020-08-28T16:14:11Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

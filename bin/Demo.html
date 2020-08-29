@@ -1,0 +1,64 @@
+<html>
+<head>
+<style type="text/css">
+body {
+	background-color: lightblack;
+}
+
+fieldset {
+	background-color: lightgray
+}
+
+input {
+	background-color: lightgreen
+}
+
+label {
+	color: red
+}
+</style>
+<script type="text/javascript">
+function onClickButton(){
+	window.location.href='./SubmitButton.html';
+}
+</script>
+</head>
+<body>
+	<div>
+		<fieldset>
+			<legend>Basic Demo File</legend>
+			<label for="frameworkname">FrameWork Name</label> <input type="text" value="Enter"
+				placeholder="Enter Framework" id="automation" /> <br /> <br /> <label
+				for="automationtype">Automation Type</label> <select
+				id="automationtype">
+				<option value="UI">UI</option>
+				<option value="Service">Service</option>
+				<option value="App">App</option>
+			</select> <br /> <br /> <label for="whichTestdata">Which Test Data::</label>&nbsp;<label>JSON</label>
+			<input type="radio" id="Json" name="JSON" value="Json"><label>Xml</label>
+			<input type="radio" id="xml" name="XML" value="xml"><label>Txt</label>
+			<input type="radio" id="txt" name="Txt" value="txt"> <label></label>
+			<br /> <br /> <label for="extFramework">Ext Framework:: </label>
+			&nbsp; <label>JSON</label> <input type="checkbox" id="Json"
+				name="JSON" value="Json"><label>Xml</label> <input
+				type="checkbox" id="xml" name="XML" value="xml"><label>Txt</label>
+			<input type="checkbox" id="txt" name="Txt" value="txt"> <label></label>
+			<br /> <br /> <label for="dateSelection">Date for Selection</label>
+			<input id="dateselect" type="date" name="Select Date" /> <br /> <br />
+			<label for="demosites"> Demo Sites </label>
+			<ul>
+				<li><a
+					href="https://www.seleniumeasy.com/test/basic-first-form-demo.html"
+					id="demo1">Demo1</a></li>
+				<li><a href="http://automationpractice.com/index.php"
+					id="demo2" target="_blank">Demo2</a></li>
+			</ul>
+			<br />
+			<button onclick="onClickButton();">Submit
+				Details</button>
+		</fieldset>
+		<p>Keep Learning&#128512;</p>
+		<p><b>We are learning Selenium</b></p>
+	</div>
+</body>
+</html>

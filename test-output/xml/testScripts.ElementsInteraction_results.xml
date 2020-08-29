@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test2"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.332">
+  <properties />
+  
+  
+            <testcase name="elemementHandle" time="1.169" classname="testScripts.ElementsInteraction" />
+                <testcase name="verifyElementClickable" time="0.163" classname="testScripts.ElementsInteraction" />
+      
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browser" value="ie" />
+	<parameter name="url"
+		value="https://www.w3schools.com/jsref/prop_tablerow_rowindex.asp" />
+	<test name="sanity test">
+		<groups>
+			<run>
+				<include name="sanity" />
+				<include name="smoke" />
+				<include name="regression" />
+			</run>
+		</groups>
+		<packages>
+			<package name="testScripts" />
+		</packages>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<Data>
+	<EXPECTED_TEXT>
+		<LOGIN>
+			<USERNAME>User ID/Email Id</USERNAME>
+		</LOGIN>
+	</EXPECTED_TEXT>
+	<ERROR_MSG>
+		<LOGIN>
+			<USERNAME>
+				<BLANK>Please enter a valid userid</BLANK>
+				<SPECIAL_CHAR>Please enter a valid userid</SPECIAL_CHAR>
+				<CHAR_LENGTH>Please enter a valid userid</CHAR_LENGTH>
+			</USERNAME>
+		</LOGIN>
+	</ERROR_MSG>
+</Data>

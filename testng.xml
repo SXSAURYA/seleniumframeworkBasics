@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="listeners.SuiteListener"/>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+	</listeners>
+	<test thread-count="1" name="Test">
+		<classes>
+			<class name="testScripts.SubmitForm" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

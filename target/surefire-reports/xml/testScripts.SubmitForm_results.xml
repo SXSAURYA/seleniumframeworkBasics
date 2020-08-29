@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.433">
+  <properties />
+  
+  
+            <testcase name="verifySubmitFormUI" time="3.996" classname="testScripts.SubmitForm" />
+                <testcase name="verifyDemoLinkNavigation" time="1.437" classname="testScripts.SubmitForm" />
+      
+</testsuite>

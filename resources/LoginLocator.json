@@ -1,0 +1,13 @@
+{
+	"xpath": {
+		"submitButton": "//button[@name='submit']",
+		"frameworkText": "//input[@name='framework']"
+	},
+	"css": {
+		"frameworkType": "select[name='%1s'][value='%2s'][type='%3s']"
+	},
+	"tagname": {
+		"submitButton": "//button[@name='submit']",
+		"frameworkText": "//input[@name='framework']"
+	}
+}

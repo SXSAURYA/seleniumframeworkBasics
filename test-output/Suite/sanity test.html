@@ -1,0 +1,545 @@
+<html>
+<head>
+<title>TestNG:  sanity test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>sanity test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>50/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 26 21:25:25 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>38 seconds (38780 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScripts.DataProviderDemo.testEven()'><b>testEven</b><br>Test class: testScripts.DataProviderDemo<br>Parameters: 1, true</td>
+<td><div><pre>java.lang.AssertionError: 1 is not as expected expected [true] but found [false]
+	at testScripts.DataProviderDemo.testEven(DataProviderDemo.java:51)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace57748372", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace57748372'><pre>java.lang.AssertionError: 1 is not as expected expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at testScripts.DataProviderDemo.testEven(DataProviderDemo.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.DataProviderDemo@754ba872</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScripts.DataProviderDemo.dataProviderTest()'><b>dataProviderTest</b><br>Test class: testScripts.DataProviderDemo<br>Parameters: nagaraju, jhjhjkh</td>
+<td></td>
+<td>0</td>
+<td>testScripts.DataProviderDemo@754ba872</td></tr>
+<tr>
+<td title='testScripts.DataProviderDemo.dataProviderTest()'><b>dataProviderTest</b><br>Test class: testScripts.DataProviderDemo<br>Parameters: anirban, sdsds</td>
+<td></td>
+<td>0</td>
+<td>testScripts.DataProviderDemo@754ba872</td></tr>
+<tr>
+<td title='testScripts.DataProviderDemo.dataProviderTest()'><b>dataProviderTest</b><br>Test class: testScripts.DataProviderDemo<br>Parameters: ullas, sdsdd</td>
+<td></td>
+<td>0</td>
+<td>testScripts.DataProviderDemo@754ba872</td></tr>
+<tr>
+<td title='testScripts.DataProviderDemo.dataProviderTestUsingObject()'><b>dataProviderTestUsingObject</b><br>Test class: testScripts.DataProviderDemo<br>Parameters: testScripts.UserCredentials@1e965684</td>
+<td></td>
+<td>0</td>
+<td>testScripts.DataProviderDemo@754ba872</td></tr>
+<tr>
+<td title='testScripts.DataProviderDemo.dataProviderTestUsingObject()'><b>dataProviderTestUsingObject</b><br>Test class: testScripts.DataProviderDemo<br>Parameters: testScripts.UserCredentials@53f65459</td>
+<td></td>
+<td>0</td>
+<td>testScripts.DataProviderDemo@754ba872</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.disableTestDemo()'><b>disableTestDemo</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.ElementsInteraction.elemementHandle()'><b>elemementHandle</b><br>Test class: testScripts.ElementsInteraction</td>
+<td></td>
+<td>2</td>
+<td>testScripts.ElementsInteraction@146ba0ac</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo.f1()'><b>f1</b><br>Test class: testScripts.TestNGDemo<br/>
+<a href="#Output-873634936" onClick='toggleBox("Output-873634936", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-873634936" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-873634936">
+In f2 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo@e25b2fe</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo.f2()'><b>f2</b><br>Test class: testScripts.TestNGDemo<br/>
+<a href="#Output-1819940427" onClick='toggleBox("Output-1819940427", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1819940427" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1819940427">
+In f2 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo@e25b2fe</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo.f3()'><b>f3</b><br>Test class: testScripts.TestNGDemo<br/>
+<a href="#Output-1324829744" onClick='toggleBox("Output-1324829744", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1324829744" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1324829744">
+In f2 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo@e25b2fe</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-1211230905" onClick='toggleBox("Output-1211230905", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1211230905" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1211230905">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-1266857657" onClick='toggleBox("Output-1266857657", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1266857657" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1266857657">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-51149171" onClick='toggleBox("Output-51149171", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-51149171" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-51149171">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-799405393" onClick='toggleBox("Output-799405393", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-799405393" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-799405393">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-732776950" onClick='toggleBox("Output-732776950", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-732776950" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-732776950">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-1663272508" onClick='toggleBox("Output-1663272508", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1663272508" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1663272508">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-673060342" onClick='toggleBox("Output-673060342", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-673060342" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-673060342">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-1735203262" onClick='toggleBox("Output-1735203262", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1735203262" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1735203262">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-1334446622" onClick='toggleBox("Output-1334446622", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1334446622" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1334446622">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-803444474" onClick='toggleBox("Output-803444474", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-803444474" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-803444474">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-1457227180" onClick='toggleBox("Output-1457227180", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1457227180" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1457227180">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-743459161" onClick='toggleBox("Output-743459161", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-743459161" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-743459161">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-1271181621" onClick='toggleBox("Output-1271181621", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1271181621" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1271181621">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-1059569329" onClick='toggleBox("Output-1059569329", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1059569329" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1059569329">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-305852228" onClick='toggleBox("Output-305852228", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-305852228" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-305852228">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-2132313634" onClick='toggleBox("Output-2132313634", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2132313634" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2132313634">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-1263225813" onClick='toggleBox("Output-1263225813", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1263225813" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1263225813">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-380928075" onClick='toggleBox("Output-380928075", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-380928075" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-380928075">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-929265901" onClick='toggleBox("Output-929265901", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-929265901" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-929265901">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f5()'><b>f5</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-1258417490" onClick='toggleBox("Output-1258417490", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1258417490" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1258417490">
+In f5 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo2.f6()'><b>f6</b><br>Test class: testScripts.TestNGDemo2<br/>
+<a href="#Output-54960993" onClick='toggleBox("Output-54960993", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-54960993" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-54960993">
+In f6 method.....<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo2@77cd7a0</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.getServiceData()'><b>getServiceData</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.invocationCountDemo()'><b>invocationCountDemo</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.invocationCountDemo()'><b>invocationCountDemo</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.invocationCountDemo()'><b>invocationCountDemo</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.invocationCountDemo()'><b>invocationCountDemo</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.invocationCountDemo()'><b>invocationCountDemo</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.invocationCountDemo()'><b>invocationCountDemo</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.invocationCountDemo()'><b>invocationCountDemo</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.invocationCountDemo()'><b>invocationCountDemo</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.invocationCountDemo()'><b>invocationCountDemo</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.parameterTest()'><b>parameterTest</b><br>Test class: testScripts.TestNGDemo3<br>Parameters: ie, https://www.w3schools.com/jsref/prop_tablerow_rowindex.asp</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.regressionTest()'><b>regressionTest</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.sanityTest()'><b>sanityTest</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.smokeTest()'><b>smokeTest</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.DataProviderDemo.testEven()'><b>testEven</b><br>Test class: testScripts.DataProviderDemo<br>Parameters: 2, true</td>
+<td></td>
+<td>0</td>
+<td>testScripts.DataProviderDemo@754ba872</td></tr>
+<tr>
+<td title='testScripts.TestNGDemo3.validateInUI()'><b>validateInUI</b><br>Test class: testScripts.TestNGDemo3</td>
+<td></td>
+<td>0</td>
+<td>testScripts.TestNGDemo3@4dfa3a9d</td></tr>
+<tr>
+<td title='testScripts.SubmitForm.verifyDemoLinkNavigation()'><b>verifyDemoLinkNavigation</b><br>Test class: testScripts.SubmitForm</td>
+<td></td>
+<td>2</td>
+<td>testScripts.SubmitForm@204f30ec</td></tr>
+<tr>
+<td title='testScripts.ElementsInteraction.verifyElementClickable()'><b>verifyElementClickable</b><br>Test class: testScripts.ElementsInteraction</td>
+<td></td>
+<td>0</td>
+<td>testScripts.ElementsInteraction@146ba0ac</td></tr>
+<tr>
+<td title='testScripts.SubmitForm.verifySubmitFormUI()'><b>verifySubmitFormUI</b><br>Test class: testScripts.SubmitForm</td>
+<td></td>
+<td>6</td>
+<td>testScripts.SubmitForm@204f30ec</td></tr>
+</table><p>
+</body>
+</html>

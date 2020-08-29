@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Submit form and login">
+	<test name="Submit form">
+		<classes>
+			<class name="testScripts.TestNGDemo" />
+		</classes>
+	</test>
+	<test name="Login">
+		<classes>
+			<class name="testScripts.TestNGDemo2" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="testScripts.SubmitForm">
+        <methods>
+          <include name="runBeforeTest"/>
+          <include name="verifyDemoLinkNavigation"/>
+          <include name="runBeforeMethod"/>
+          <include name="verifySubmitFormUI"/>
+        </methods>
+      </class>
+      <class name="testScripts.ElementsInteraction">
+        <methods>
+          <include name="beforeMethod"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Test2(failed)" preserve-order="true">
+    <classes>
+      <class name="testScripts.SubmitForm">
+        <methods>
+          <include name="runBeforeTest"/>
+          <include name="runBeforeMethod"/>
+        </methods>
+      </class>
+      <class name="testScripts.ElementsInteraction">
+        <methods>
+          <include name="verifyElementClickable"/>
+          <include name="elemementHandle"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

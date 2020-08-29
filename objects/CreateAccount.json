@@ -1,0 +1,8 @@
+{
+	"CSS": {
+		"LoginButton": ".username"
+	},
+	"XPATH": {
+		"HeaderText": "//h3[text()='Sign In']"
+	}
+}
